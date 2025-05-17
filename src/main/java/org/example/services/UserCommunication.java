@@ -7,8 +7,8 @@ import static org.example.Main.scanner;
 
 public class UserCommunication {
     public Cart cart = new Cart(this);
-    private List<FilterRule> filterRuleList = new ArrayList<>();
-    private List<Product> productList = List.of(
+    private final List<FilterRule> filterRuleList = new ArrayList<>();
+    private final List<Product> productList = List.of(
             new Product("Белый хлеб", 25),
             new Product("Сырок глазированный", 40),
             new Product("Вода", 60),

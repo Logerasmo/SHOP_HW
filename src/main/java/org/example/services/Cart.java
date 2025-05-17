@@ -7,7 +7,7 @@ import java.util.Map;
 import static org.example.Main.scanner;
 
 public class Cart {
-    private Map<Product, Integer> cart = new HashMap<>();
+    private final Map<Product, Integer> cart = new HashMap<>();
     private final UserCommunication uc;
 
     protected Cart(UserCommunication uc){
